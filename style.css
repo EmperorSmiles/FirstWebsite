@@ -157,9 +157,9 @@ nav ul {
 	Main Visual
 ====================*/
 
- 	.main-visual img {
- 		display: block;
- 	}
+	.main-visual img {
+		display: block;
+	}
 
 	.main-visual figcaption {
 		background-color: #f6f6f6;
@@ -203,9 +203,12 @@ nav ul {
 
 
 .work {
-	/* float: left; */
-	width: 22%;
 	margin-right: 4%;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+	width: 22%;
+	padding: 10px;
+	border-radius: 7px;
+
 }
 
 .work:last-child {
