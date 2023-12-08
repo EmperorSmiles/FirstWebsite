@@ -160,6 +160,8 @@ nav ul {
 
 	.main-visual img {
 		display: block;
+		max-width: 100%;
+		height: auto;
 	}
 
 	.main-visual figcaption {
@@ -206,11 +208,10 @@ nav ul {
 
 .work {
 	margin-right: 4%;
-	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+	box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
 	width: 22%;
 	padding: 10px;
 	border-radius: 7px;
-
 }
 
 .work:last-child {
