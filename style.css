@@ -150,7 +150,7 @@ nav ul {
 	
 	@media (max-width: 786px) {
 		.section {
-			display: block;
+			padding: 5px;
 		}
 		
 	}
