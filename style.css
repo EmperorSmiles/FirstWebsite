@@ -59,9 +59,15 @@ p {
 /*===============
 	Header
 =================*/
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
 .page-header {
 	border-top: 5px solid #ebebeb;
-	padding-bottom: 3em;
+	padding-bottom: 1em;
 	}
 
 	.page-header h1 {
@@ -71,27 +77,24 @@ p {
 		left: -100%;
 	}
 
-.page-header > div {
-		position: relative;
-	}
 
 	.page-header .identity {
 		font-family: "Pacifico", cursive;
 		font-size: 3.5em;
-		position: absolute;
 		bottom: 0;
+		padding: 10px;
 	}
 
 .page-header nav {
-	float: right;
+	/* float: right; */
 	font-family: "Economica", sans-serif;
 	text-transform: uppercase;
 }
 .page-header nav li {
 	color: #bfbfbf;
-	float: left;
+	/* float: left; */
 	margin-right: 3rem;
-	padding-top: 3rem;
+	padding-top: auto;
 }
 
 .page-header nav li:last-child {
@@ -104,31 +107,51 @@ p {
 	font-size: 1.6em;
 }
 
+nav ul {
+	display: flex;
+	
+}
+
 /*==================
 	claims
 ===================*/
 
 .claim {
-	float: left;
-	width: 30%;
-	margin-right: 5%;
+	margin-right: 10px;
+	background-color: rgb(192, 195, 195);
+	margin-bottom: 20px;
+	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+	border-radius: 7px;
+	padding: 20px;
+	}
+
+	.flex {
+		display: flex;
+		justify-content: space-between;
+		align-items: start;
 	}
 	.claim:last-child {
 		margin-right: 0;
 	}
 
 	.claims header > i {
-		font-size: 2.5rem;
+		font-size: 2rem;
 		font-weight: bold;
 		color: #9a9a9a;
-		float: left;
-		width: 30%;
+		width: 20%;
+		padding: 10px;
 		margin-right: 5px;
+		align-self: self-start;
 	}
-
-	.claim header > h2 {
-		float: left;
-		width: 70%;
+	
+	.claimhead {
+		margin-bottom: 0px;
+	}
+	
+	@media (max-width: 786px) {
+		.section {
+			display: block;
+		}
 	}
 /*==================
 	Main Visual
@@ -146,6 +169,8 @@ p {
 	.main-visual figcaption > strong {
 		font-size: 1.4em;
 	}
+
+	
 /*===================
 	Portfolio
 ===================*/
@@ -178,7 +203,7 @@ p {
 
 
 .work {
-	float: left;
+	/* float: left; */
 	width: 22%;
 	margin-right: 4%;
 }
@@ -194,6 +219,7 @@ p {
 .work figure > img {
     width: 100%;
 }
+
 /*===================
 	Footer
 ====================*/	
@@ -213,11 +239,11 @@ p {
 }
 
 .page-footer .copyright {
-	float: left;
+	/* float: left; */
 }
 
 .page-footer .credits {
-	float: right;
+	/* float: right; */
 }
 
 .page-footer-content {
