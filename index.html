@@ -9,26 +9,24 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Economica&family=Pacifico&display=swap" rel="stylesheet">
-	<script src="https://cdn.tailwindcss.com"></script>
 	<link rel="stylesheet" type="text/css" href="all.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 <!------Header----->
 <header class="page-header">
-		<div class="fixed-width clearfix">
-			<em class="identity">Blitz</em>
-			<h1>Blitz Homepage</h1>
-			<nav>
-				<ul>
-					<li><a href="#">Homepage<em>Home</em></a></li>
-					<li><a href="#">Who are we?<em>About Us</em></a></li>
-					<li><a href="#">My portfolio<em>Projects</em></a></li>
-					<li><a href="#">Latest News<em>blog</em></a></li>
-					<li><a href="#">get in touch<em>contact</em></a></li>
-				</ul>
-			</nav>
-		</div>
+			<div class="fixed-width container">
+				<em class="identity">Blitz</em>
+				<nav class="menu">
+					<ul>
+						<li><a href="#">Homepage<em>Home</em></a></li>
+						<li><a href="#">Who are we?<em>About Us</em></a></li>
+						<li><a href="#">My portfolio<em>Projects</em></a></li>
+						<li><a href="#">Latest News<em>blog</em></a></li>
+						<li><a href="#">get in touch<em>contact</em></a></li>
+					</ul>
+				</nav>
+			</div>
 </header>
 
 <div class="fixed-width">
@@ -43,11 +41,11 @@
 </figure>
 
 <!-- claims -->
-<section class="claims clearfix data-block">
+<section class="claims clearfix data-block mid-section flex section">
 		<article class="claim">
-			<header class="clearfix">
+			<header class="clearfix flex">
 				<i class="fa-solid fa-magnifying-glass"></i>
-				<h2>Check out our latest projects</h2>
+				<h2 class="claimhead">Check out our latest projects</h2>
 			</header>
 				<p>Lorem ipsum dolor sit amet consectetur adipiscing elit, cras curae rutrum fames sollicitudin molestie, ullamcorper orci varius conubia consequat lectus.</p>
 
@@ -56,9 +54,9 @@
 		</article>
 
 		<article class="claim">
-			<header class="clearfix">
+			<header class="clearfix flex">
 				<i class="fa-solid fa-star"></i>
-				<h2>guarantee 5-star quality work</h2>
+				<h2 class="claimhead">We guarantee 5-star quality work</h2>
 			</header>
 				<p>Lorem ipsum dolor sit amet consectetur adipiscing elit, cras curae rutrum fames sollicitudin molestie, ullamcorper orci varius conubia consequat lectus.</p>
 
@@ -67,27 +65,25 @@
 		</article>
 
 		<article class="claim">
-			<header class="clearfix">
+			<header class="clearfix flex">
 				<i class="fa-solid fa-book-open-reader"></i>
-				<h2>Stay connected by reading the blog</h2>
+				<h2 class="claimhead">Stay connected by reading the blog</h2>
 			</header>
 				<p>Lorem ipsum dolor sit amet consectetur adipiscing elit, cras curae rutrum fames sollicitudin molestie, ullamcorper orci varius conubia consequat lectus.</p>
 
 				<i class="fa-solid fa-angles-right"></i>
 				<a href="#" class="title"> Find out more</a>
 		</article>
-
-
 	</section>
 
 <!---Portfolio--->
 
-	<section class="portfolio data-block">
+	<div class="portfolio data-block">
 	<div class="title-wrapper">
 		<h2>My Latest Work</h2>
 	</div>
 
-	<div class="clearfix">
+	<div class="clearfix" >
 		<article class="work">
 			<figure>
 				<img src="https://loremflickr.com/220/120/nature/all?t=1">
@@ -144,7 +140,7 @@
 			<a href="#" class="title">view projects</a>
 		</article>
 	</div>
-	</section>
+</div>
 </div>
 
 <!-----Footer------>
