@@ -152,6 +152,7 @@ nav ul {
 		.section {
 			display: block;
 		}
+		
 	}
 /*==================
 	Main Visual
@@ -182,8 +183,9 @@ nav ul {
 .portfolio:before {
 	content: " ";
 	display: block;
+	/* z-index: 1; */
 	height: 30px;
-	background: url(../images/patterns.png) left top repeat-x;
+	background: url(../images/patterns.png);
 	margin-bottom: 1.5em;
 }
 
