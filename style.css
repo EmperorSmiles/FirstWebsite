@@ -39,7 +39,7 @@ p {
 	line-height: 1.3;
 }
 .fixed-width {
-	width: 940px;
+	width: 58.75rem;
 	margin: 0 auto;
 }
 
@@ -148,7 +148,7 @@ nav ul {
 		margin-bottom: 0px;
 	}
 	
-	@media (max-width: 786px) {
+	@media (max-width: 796px) {
 		.section {
 			padding: 5px;
 		}
@@ -223,7 +223,8 @@ nav ul {
 }
 
 .work figure > img {
-    width: 100%;
+    max-width: 100%;
+	height: auto;
 }
 
 /*===================
