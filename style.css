@@ -153,6 +153,7 @@ nav ul {
 		transform: translateY(20px); 
 		transition: opacity 0.5s ease, transform 0.5s ease;
 		margin-bottom: 50px;
+		font-size: 2em;
     }
 
 	.menu.active li {
