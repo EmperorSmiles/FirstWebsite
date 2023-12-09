@@ -142,7 +142,6 @@ nav ul {
 		margin-top: 50px;
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
 		align-items: center;
 		padding: 40px;
     }
